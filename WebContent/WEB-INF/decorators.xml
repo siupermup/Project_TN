@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/MasterLayout">
+	<!-- wed -->
+	<decorator name="customer" page="web.jsp">
+		<pattern>/home.php</pattern>
+		<pattern>/product/**.php</pattern>
+		<pattern>/listproduct.php</pattern>
+		<pattern>/searchproduct.php</pattern>
+		<pattern>/listprobycat/**.php</pattern>
+		<pattern>/register.php</pattern>
+		<pattern>/login.php</pattern>
+	</decorator>
+	
+		<!-- admin -->
+		<decorator name="admin" page="admin.jsp">
+		<pattern>/homeAdmin.php</pattern>
+		<pattern>/homeAdmin/report.php</pattern>
+		<pattern>/homeAdmin/order.php</pattern>
+		<pattern>/homeAdmin/order/confirm/**.php</pattern>
+		<pattern>/homeAdmin/order/finish/**.php</pattern>
+		<pattern>/homeAdmin/order/order_detail/**.php</pattern>
+		<pattern>/homeAdmin/product.php</pattern>
+		<pattern>/homeAdmin/product/editProduct/**.php</pattern>
+		<pattern>/homeAdmin/product/insertProduct.php</pattern>
+		<pattern>/homeAdmin/shipper.php</pattern>
+		<pattern>/homeAdmin/shipper/shipper_form.php</pattern>
+		<pattern>/homeAdmin/shipper/shipper_edit/**.php</pattern>
+		<pattern>/homeAdmin/employe.php</pattern>
+		
+		</decorator>
+
+	
+</decorators>
